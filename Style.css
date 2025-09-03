@@ -106,10 +106,7 @@ nav {
 }
 
 /* ----------------------------
-   Hero Section (Home Page) - Dark Blue Theme
------------------------------ */
-/* ----------------------------
-   Hero Section (Home Page) - Dark Blue Variant
+   Hero Section 
 ----------------------------- */
 .hero {
   height: 100vh;
@@ -119,9 +116,7 @@ nav {
   align-items: center;
   text-align: center;
   padding: 0 20px;
-  color: #e3f2fd; /* very light blue */
-
-  /* 🔹 Dark Blue Gradient Background (Different tones) */
+  color: #e3f2fd; 
   background: linear-gradient(135deg, #001f3f, #003566, #0a1128);
 }
 
@@ -167,35 +162,36 @@ nav {
   margin: 10px auto;
   font-size: 16px;
 }
-/*----------------------------
-Skills Section
-----------------------------*/
 /* ----------------------------
-   Skills Section - Dark Blue Variant
+   Skills Section 
 ----------------------------- */
 #skills {
-  background: linear-gradient(135deg, #001f3f, #003566, #0a1128); /* dark navy gradient */
-  padding: 40px;
-  border-radius: 20px;
-  box-shadow: 0 6px 15px rgba(0, 0, 50, 0.5);
-  max-width: 800px;
-  margin: 50px auto;
+  width: 100%;              
+  min-height: 100vh;        
+  display: flex;            
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #001f3f, #003566, #0a1128);
 }
 
 #skills h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #89c2d9; /* soft cyan-blue accent */
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
 
 .skills-card {
-  background: #0d1b2a; /* dark slate navy */
-  padding: 25px;
+  background: rgba(13, 27, 42, 0.9); /* semi-transparent dark card */
+  padding: 30px;
   border-radius: 15px;
-  box-shadow: 0 4px 12px rgba(0, 0, 50, 0.6);
+  box-shadow: 0 4px 15px rgba(0, 0, 50, 0.6);
+  max-width: 800px;
+  width: 100%;
 }
 
 .skills-card ul {
@@ -205,20 +201,20 @@ Skills Section
 }
 
 .skills-card li {
-  font-size: 1.1rem;
-  padding: 10px 15px;
-  margin: 8px 0;
-  background: #1e3f66; /* steel navy blue */
-  border-left: 6px solid #1e6091; /* deep denim blue accent */
+  font-size: 1.2rem;
+  padding: 12px 18px;
+  margin: 10px 0;
+  background: #1e3f66;
+  border-left: 6px solid #1e6091;
   border-radius: 8px;
-  color: #a9d6e5; /* light muted blue */
+  color: #a9d6e5;
   transition: all 0.3s ease;
 }
 
 .skills-card li:hover {
-  background: #184e77; /* darker hover */
-  transform: translateX(8px);
-  box-shadow: 0 3px 8px rgba(0, 0, 60, 0.7);
+  background: #184e77;
+  transform: translateX(10px);
+  box-shadow: 0 4px 12px rgba(0, 0, 60, 0.7);
 }
 
 /* ----------------------------
